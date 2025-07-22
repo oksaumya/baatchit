@@ -7,7 +7,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "https://baatchit-mgun.onrender.com",
+    origin: "https://baatchit-vume.onrender.com",
     methods: ["GET", "POST"],
   },
 });
